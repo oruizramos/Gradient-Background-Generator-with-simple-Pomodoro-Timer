@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Timer with Gradient Background Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+		<!-- Background Generator-->
+		<h1>Background Generator</h1>
+		<input class="color1" type="color" name="color1" value="#00ff00">
+		<input class="color2" type="color" name="color2" value="#ff0000">
+		<h2>Current CSS Background</h2>
+		<h3></h3>
+		<script type="text/javascript" src="script.js"></script> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+	<!-- Pomodoro -->
+	<div id="container">
+		<p id="work" class="label">Work|</p><p id="break" class="label">Break</p><p id="cycles" class="label">Cycles|</p>
+		<!--Work Timer-->
+		<div id="work-timer" class="timer">
+				<p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+		</div>
+
+		<!--Cycle Counter-->
+		<p id="counter" class="timer">0</p>
+
+		<!--Break Timer-->
+		<div id="break-timer" class="timer">
+				<p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+		</div>
+		<button id="start" class="btn">Start</button>
+		<button id="stop" class="btn">Pause</button>
+		<button id="reset" class="btn">Reset</button>
+</div>
+<script src="script2.js"></script>
+	
+</body>
+</html>
